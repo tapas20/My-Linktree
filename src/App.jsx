@@ -60,6 +60,14 @@ const LinkTreeProfile = () => {
       },
       {
         id: 6,
+        title: "Topmate",
+        url: "https://topmate.io/tapas_20/",
+        icon: User,
+        color: "red",
+        description: "Book a 1:1 session / mentorship",
+      },
+      {
+        id: 7,
         title: "Contact Me",
         url: "mailto:tapasjyotimohanta@gmail.com",
         icon: Mail,
@@ -105,6 +113,12 @@ const LinkTreeProfile = () => {
       hover: "hover:from-violet-500 hover:to-violet-600",
       border: "border-violet-600 hover:border-violet-500",
       shadow: "shadow-violet-900/20 hover:shadow-violet-900/40",
+    },
+    red: {
+      bg: "bg-gradient-to-r from-red-500 to-red-600",
+      hover: "hover:from-red-400 hover:to-red-700",
+      border: "border-red-600 hover:border-red-500",
+      shadow: "shadow-red-900/20 hover:shadow-red-900/40",
     },
   };
 
@@ -183,9 +197,7 @@ const LinkTreeProfile = () => {
                 {profileData.title}
               </span>
             </div>
-            <p className="text-gray-600 leading-relaxed">
-              {profileData.bio}
-            </p>
+            <p className="text-gray-600 leading-relaxed">{profileData.bio}</p>
           </div>
         </div>
 
