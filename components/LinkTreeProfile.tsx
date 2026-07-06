@@ -10,7 +10,7 @@ const LinkTreeProfile = () => {
     links: [
       {
         title: "PORTFOLIO",
-        url: "https://tapasportfolio.vercel.app/",
+        url: "https://tapasportfolio.odcoders.com",
       },
       {
         title: "GITHUB",
