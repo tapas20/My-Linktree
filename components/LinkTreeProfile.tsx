@@ -36,7 +36,7 @@ const LinkTreeProfile = () => {
     socials: [
       {
         icon: Globe,
-        url: "https://tapasjyotiportfolio.vercel.app/",
+        url: "https://tapasportfolio.odcoders.com",
         label: "Website",
       },
       {
